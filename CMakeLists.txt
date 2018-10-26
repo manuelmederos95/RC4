@@ -3,4 +3,4 @@ project(RC3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RC3 src/main.cpp src/CryptoSystemRC4.h)
+add_executable(RC3 src/main.cpp src/CryptoSystemRC4.h test/test_main.cpp test/test_main.h)
